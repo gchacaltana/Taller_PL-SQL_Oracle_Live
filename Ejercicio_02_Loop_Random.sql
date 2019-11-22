@@ -1,8 +1,8 @@
 /**
-Desarrollar un programa que sume "n" veces un número aleatorio.
+Desarrollar un programa que sume n veces un número aleatorio.
 Imprimir en pantalla los números aleatorios generados y la suma obtenida. 
 La cantidad de iteraciones deberá de generarse de manera aleatoria, considerando los valores del 1 al 10.
-Los números aleatorios generados en cada iteración deberán ser del 10 al 100;
+Los números aleatorios generados en cada iteración deberán ser del 10 al 100.
 */
 DECLARE
     v_sum NUMBER := 0;
