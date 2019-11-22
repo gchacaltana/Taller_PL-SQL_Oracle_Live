@@ -3,16 +3,16 @@ CREAR UN PROGRAMA QUE CALCULE LA DISTANCIA DE DOS PUNTOS DE UN PLANO CARTESIANO 
 EL VALOR DE X = (3,2); EL VALOR DE Y = (5,8). MOSTRAR EN PANTALLA LA DISTANCIA DE LOS PUNTOS X,Y.
 */
 DECLARE
-	V_POINT_X1 NUMBER := 3;
-	V_POINT_X2 NUMBER := 2;
-	V_POINT_Y1 NUMBER := 5;
-	V_POINT_Y2 NUMBER := 8;
-	V_DISTANCE DECIMAL(6,2);
+    v_point_x1 NUMBER := 3;
+    v_point_x2 NUMBER := 2;
+    v_point_y1 NUMBER := 5;
+    v_point_y2 NUMBER := 8;
+    v_distance DECIMAL(6,2);
 BEGIN
-	V_DISTANCE := SQRT(POWER((V_POINT_X1-V_POINT_X2),2)+POWER((V_POINT_Y1-V_POINT_Y2),2));
-	DBMS_OUTPUT.PUT_LINE('CALCULAR LA DISTANCIA DE DOS PUNTOS');
-	DBMS_OUTPUT.PUT_LINE('************************************');
-	DBMS_OUTPUT.PUT_LINE('Punto X : (' || V_POINT_X1||','||V_POINT_X2||')');
-	DBMS_OUTPUT.PUT_LINE('Punto Y : (' || V_POINT_Y1||','||V_POINT_Y2||')');
-	DBMS_OUTPUT.PUT_LINE('Distancia XY : ' || V_DISTANCE);
+    v_distance := SQRT(POWER((v_point_x1-v_point_x2),2)+POWER((v_point_y1-v_point_y2),2));
+    DBMS_OUTPUT.PUT_LINE('CALCULAR LA DISTANCIA DE DOS PUNTOS');
+    DBMS_OUTPUT.PUT_LINE('************************************');
+    DBMS_OUTPUT.PUT_LINE('Punto X : (' || v_point_x1||','||v_point_x2||')');
+    DBMS_OUTPUT.PUT_LINE('Punto Y : (' || v_point_y1||','||v_point_y2||')');
+    DBMS_OUTPUT.PUT_LINE('Distancia XY : ' || v_distance);
 END;
