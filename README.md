@@ -1,4 +1,4 @@
-# Taller Ejercicios PL/SQL en Oracle Database 19C
+# Taller PL/SQL en Oracle Database 19C
 
 Ejercicio 01:
 
