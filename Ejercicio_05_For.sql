@@ -1,9 +1,3 @@
-
-/**
-Elaborar un bloque de sentencias que muestre los departamentos y los empleados que pertenecen a los departamentos. 
-El resultado debe estar de acuerdo al formato indicado en el ejemplo.
-*/
-
 DECLARE
     CURSOR dpto_employees_cursor IS
         SELECT e.department_id,d.department_name,e.employee_id,e.first_name,e.last_name,e.salary 
