@@ -1,0 +1,13 @@
+CREATE OR REPLACE TRIGGER actualiza_factura
+BEFORE INSERT OR DELETE ON Factura_Detalle
+FOR EACH ROW
+BEGIN
+  IF INSERTING THEN 
+    UPDATE factura SET totfac = totfac + :new.subtot WHERE codfac = :new.codfac;
+  END IF;
+  
+  IF DELETING THEN 
+    UPDATE factura SET totfac = totfac - :old.subtot WHERE codfac = :old.codfac;
+  END IF;
+
+END actualiza_factura;
