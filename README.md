@@ -2,12 +2,14 @@
 
 **Ejercicio 01:**
 
- 	CREAR UN PROGRAMA QUE CALCULE LA DISTANCIA DE DOS PUNTOS DE UN PLANO CARTESIANO X,Y.EL VALOR DE X = (3,2); EL VALOR DE Y = (5,8). MOSTRAR EN PANTALLA LA DISTANCIA DE LOS PUNTOS X,Y.
+ 	Crear un programa que calcule la distancia de dos puntos de un plano cartesiano (x,y). Dado los valores, x = (3, 2);  y = (5, 8). Mostrar en pantalla la distancia de los puntos x, y.
+
   
 **Ejercicio 02:**
 
-	DESARROLLAR UN PROGRAMA QUE SUME N VECES UN NUMERO ALEATORIO. IMPRIMIR EN PANTALLA LOS NUMEROS ALEATORIOS GENERADOS Y LA SUMA OBTENIDA. LA CANTIDAD DE ITERACIONES DEBERA GENERARSE DE MANERA ALEATORIA, CONSIDERANDO LOS VALORES DEL 1 AL 10. LOS NUMEROS ALEATORIOS GENERADOS EN CADA ITERACION DEBERAN SER DEL 10 AL 100
+	Desarrollar un programa que sume "n" veces un número aleatorio. Imprimir en pantalla los números aleatorios generados y la suma obtenida. La cantidad de iteraciones deberá generarse de manera aleatoria, considerando los valores del 1 al 10. Los números aleatorios generados en cada iteración deberán ser del 10 al 100. 
  
 **Ejercicio 03:**
 
 	Desarrollar un programa que devuelva la cantidad de números multiplos de 3 que existen del 1 al 100.
+	
